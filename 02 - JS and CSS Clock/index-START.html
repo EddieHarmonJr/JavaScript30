@@ -23,6 +23,8 @@
       font-family:'helvetica neue';
       text-align: center;
       font-size: 10px;
+      transform: rotate(330deg);
+
     }
 
     body {
@@ -62,6 +64,10 @@
       background:black;
       position: absolute;
       top:50%;
+      transform-origin: 100%;
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7,0.58, 1)
+
     }
 
   </style>
